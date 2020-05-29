@@ -11,4 +11,11 @@ namespace TailSpin.SpaceGame.Web.Models
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
     }
+
+        public abstract class ModelTesting
+    {
+        // The value that uniquely identifies this object.
+        [JsonProperty(PropertyName = "id")]
+        public string Id { get; set; }
+    }
 }
